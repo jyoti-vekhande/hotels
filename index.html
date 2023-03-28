@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divce-width,intial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="popper.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="Master.css">
+    <style type="text/css">
+        .carousel-inner img {
+            width: 100%;
+            height: 460%;
+        }
+
+        #zoom:hover {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+
+        }
+
+        #link:hover {
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+           <div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+            <img src="img/logo.png" class="img-fluid" height="20" width="150"><br>
+            <h5>The Roy Hotel</h5>
+           </div> 
+           <div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+            <form class="form-inline" action="Contact.html" method="get" style="margin-top: 35px; margin-left: 60px;">
+            <div class="input-group">
+                    <select name="city" class="form-control" id="exampleFormControlSelect1" style="border: 2px solid black;">
+                      <option>Book now...</option>
+                      <option>INDIA</option>
+                      <option>EGYPT</option>
+                      <option>INDONESIA</option>
+                      <option>UAE</option>
+                      <option value="SAUDI-ARABIA">SAUDI ARABIA</option>
+                      <option>MAURITIUS</option>
+                    </select>&nbsp;&nbsp;
+                <button class="btn btn-dark" type="submit">submit</button>
+            </div>
+            </form>
+           </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active" style="border-bottom: 3px solid black; font-size: 17px;"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;">HOME</a></li>
+                <li class="nav-item"><a class="nav-link"  href="destinations.html" style="width: 160px; text-align: center;">DESTINATIONS</a></li>
+                <li class="nav-item"><a class="nav-link"  href="hotel-overview.html" style="width: 160px; text-align: center;">HOTEL-OVERVIEW</a></li>
+                <li class="nav-item"><a class="nav-link"  href="gallery.html" style="width: 130px; text-align: center;">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link"  href="dining.html" style="width: 110px; text-align: center;">DINING</a></li>
+                <li class="nav-item"><a class="nav-link"  href="Contact.html" style="width: 110px; text-align: center;">CONTACTS</a></li>
+            </ul>
+        </div>
+    
+    </div>
+</nav>
+
+<section>
+    <div class="container">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+           
+          </ul>
+        <!-- The slideshow -->
+          <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <a href="#"><img src="img/hotel2.webp" alt="Healthy Eating" width="1100" height="460"></a>
+                <div class="carousel-caption">
+                    <h1><a href="#" style="color: white;">Roy Hotels & Resorts.</a></h1>
+                  </div>
+            </div>
+
+            <div class="carousel-item"> 
+                  <a href="#"><img src="img/hotel.jpg" alt="Good Habits for a Healthy Life" width="1100" height="460"></a>
+                  <div class="carousel-caption">
+                    <h1><a href="#" style="color: white;">Welcome To Roy.</a></h1>
+                  </div>
+            </div>
+
+            <div class="carousel-item">
+                  <a href="#"><img src="img/hotel1.webp" alt="Yoga for Healthy Living" width="1100" height="460"></a>
+                  <div class="carousel-caption">
+                    <h1><a href="#" style="color: white;">Stay once, carry memories forever.</a></h1>
+                  </div>
+            </div>
+        </div>
+              <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+    </div><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1 style="text-align: center;">- What stirs the traveller in you? -</h1>
+            </div><br>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p style="font-size: 20px; line-height: 28px; text-align: justify;">
+                    An idyllic beach on a faraway island? Shopping for rare treasures in an ancient city?
+A picnic in the Himalayas? A leisurely cruise on the Nile or a jungle adventure?</p>
+
+            </div>
+        </div>
+        
+    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="destinations.html#Day-1">INDIA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destinations.html#Day-4">UAE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destinations.html#Day-5">SAUDI ARABIA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destinations.html#Day-3">INDONESIA</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="destinations.html#Day-2">EGYPT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destinations.html#Day-6">MAURITIUS</a>
+          </li>
+      </ul>
+    <div class="container">
+        <br><hr><br>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <a href="destinations.html#Day-1" style="color:  #1b00b3;"><img id="zoom" src="img/INDIA.webp" class="img-thumbnail img-fluid mx-auto d-block">
+                <h4 id="link" style="text-align: center; black; color: #1b00b3;">INDIA.</h4></a>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <a href="destinations.html#Day-4" style="color:  #1b00b3;"><img id="zoom" src="img/UAE.png" class="img-thumbnail img-fluid mx-auto d-block">
+                <h4 id="link" style="text-align: center; color:  #1b00b3;">UAE.</h4></a>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <a href="destinations.html#Day-5" style="color:  #1b00b3;"><img id="zoom" src="img/SAUDI.webp" class="img-thumbnail img-fluid mx-auto d-block">
+                <h4 id="link" style="text-align: center; color:  #1b00b3;">SAUDI ARABIA.</h4></a>
+            </div>
+        </div><br>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <a href="destinations.html#Day-3" style="color:  #1b00b3;"><img id="zoom" src="img/INDO.png" class="img-thumbnail img-fluid mx-auto d-block">
+                <h4 id="link" style="text-align: center; color:  #1b00b3;">INDONESIA</h4></a>
+            </div> 
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <a href="destinations.html#Day-2" style="color:  #1b00b3;"><img id="zoom" src="img/EGYPT.png" class="img-thumbnail img-fluid mx-auto d-block">
+                <h4 id="link" style="text-align: center; color:  #1b00b3;">EGYPT</h4></a>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <a href="destinations.html#Day-6" style="color:  #1b00b3;"><img id="zoom" src="img/MAURI.png" class="img-thumbnail img-fluid mx-auto d-block">
+                <h4 id="link" style="text-align: center; color: #1b00b3;">MAURITIUS.</h4></a>
+            </div>
+        </div>
+    </div> <hr>	<br>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h4 style="text-align: justify;"><b>"For your privacy and comfort, our suites are laid out in small clusters on terraces, with unrestricted Red Sea and garden views."</b></h4>
+        
+        </div>
+    </div>
+</section><br>
+<footer class="bg-dark">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h4>@ 2023 The Roy Hotels & Resorts . All Copy Rights Reserved. </h4>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
